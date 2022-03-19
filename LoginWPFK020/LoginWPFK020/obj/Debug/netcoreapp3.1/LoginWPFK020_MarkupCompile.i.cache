@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\jonathan\source\repos\LoginWPFK020\LoginWPFK020\App.xaml
-11407045341
+2-1562899572
 
-91048905628
+10-889886513
 192-1533232326
-MainWindow.xaml;
+MainWindow.xaml;VentanaPrincipal.xaml;
 
-False
+True
 

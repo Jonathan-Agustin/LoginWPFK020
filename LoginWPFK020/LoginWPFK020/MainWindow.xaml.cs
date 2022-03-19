@@ -35,7 +35,13 @@ namespace LoginWPFK020
             if(login.checkArchivoTexto(username, password) )
             {
                 //salidaLabel.Content = "Usuairo logeado";
-                MessageBox.Show("Exito!", "Usuario logeado");
+                //MessageBox.Show("Exito!", "Usuario logeado");
+                
+                VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+                ventanaPrincipal.Show();
+                this.Close();
+
+                //this.Hide();
             }
             else
             {

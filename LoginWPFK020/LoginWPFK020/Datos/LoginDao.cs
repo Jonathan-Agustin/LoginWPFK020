@@ -34,9 +34,9 @@ namespace LoginWPFK020.Datos
                     line = sr.ReadLine();
                     contador++;
                 }
-            }catch (Exception)
+            }catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
             return user;
         }
